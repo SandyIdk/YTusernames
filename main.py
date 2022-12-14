@@ -25,3 +25,5 @@ def check_name(name)
 for i in range(words):
   available(i) = check_name(words(i))
 
+for i in range(words):
+  print(" {} {}".format(words(i), available(i))
